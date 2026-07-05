@@ -1,0 +1,64 @@
+.overlayContent {
+  position: absolute;
+  top: 64px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 610px;
+  gap: 10px;
+}
+
+.overlayText {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 64px;
+  width: 100vw;
+  height: 610px;
+  background-color: #4a91f2;
+  opacity: 90%;
+  z-index: 5;
+}
+
+.carouselContainer {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.carouselGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 25s infinite linear;
+}
+
+.carouselItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 1;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .overlayText {
+    letter-spacing: 2px;
+  }
+}

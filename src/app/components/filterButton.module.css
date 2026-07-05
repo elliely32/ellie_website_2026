@@ -1,0 +1,43 @@
+.buttonContainer {
+  width: 25vw;
+  height: 45px;
+  font-weight: 700;
+  font-size: 18px;
+  border: solid 3px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonContainer:hover {
+  cursor: pointer;
+}
+
+.selectedButtonContainer {
+  width: 25vw;
+  background-color: #4a91f2;
+  height: 45px;
+  font-weight: 700;
+  font-size: 18px;
+  border: solid 3px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selectedButtonContainer:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .buttonContainer {
+    width: 90vw;
+  }
+  .selectedButtonContainer {
+    width: 90vw;
+  }
+}

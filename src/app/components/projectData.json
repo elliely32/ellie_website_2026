@@ -1,0 +1,260 @@
+{
+  "projects": [
+    {
+      "title": "Benevolent Heart",
+      "show": true,
+      "date": "05/2025",
+      "pageTag": "benevolent-heart",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/benevolentHeartThumb.webp",
+      "thumbNailAlt": "Bevevolent Heart Thumbnail",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        { "linkName": "LinkTest1", "linkAddress": "https://elliely.me/" },
+        { "linkName": "LinkTest2", "linkAddress": "https://elliely.me/" }
+      ]
+    },
+    {
+      "title": "Gogh On!",
+      "show": true,
+      "date": "02/2022",
+      "pageTag": "gogh-on",
+      "tag": ["code"],
+      "projectType": "gallery",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/goghonthumbnail.webp",
+      "thumbNailAlt": "Gogh On! Thumbnail",
+      "projectSource": [
+        "/assets/projectAssets/goghOnMain.png",
+        "/assets/projectAssets/goghOnLobby.png",
+        "/assets/projectAssets/goghOnPostSession.png"
+      ],
+      "softwareMaterials": "Node.js, react, express, Socket.io, React-Konva, Bootstrap",
+      "description": [
+        "Gogh On! is a collaborative drawing space website that allows users to create custom rooms and use a common drawing space, equipped with an in house messaging system, an array of art tools and the ability to export your drawing post drawing session. This project was created in collaboration with Ataa Amponsah, Amanda Henneberry, Nhu Quynh le, and Ellie Ly.",
+        "Inspired by online drawing games like Skribbl.io, Drawful and Gartic phone, we wanted to create a collaborative drawing website where users could join and draw simultaneously on the same canvas. With this idea in mind, we needed to utilize frameworks for drawing and for real time communication between users. To accomplish this we utilized React Konva, for canvas and drawing tool integration with our react components, and Socket.IO, for utilization of web sockets. A big challenge for this project was figuring out how to use these two frameworks in tandem to allow for collaboration on a single canvas amongst users.",
+        "My contributions to this project focused mostly on the implementation of Socket.IO. I started by creating the initial client and server. Next, I focused on Socket.IO's room feature in order to integrate sessions. Additionally, I utilized Socket.IO's data to implement dynamic visual displays of users as they enter/leave a room. Collaborating with my group, we built an in-house messaging system for users to communicate during drawing sessions and finally focused on combining Socket.IO and React Konva. Aside from that, I drew many of the assets for the website such as our background and the Icon :) "
+      ],
+      "links": [
+        {
+          "linkName": "Video Summary",
+          "linkAddress": "https://www.youtube.com/watch?v=aSCxn9fvj98"
+        },
+        {
+          "linkName": "Github Repo",
+          "linkAddress": "https://github.com/2111-desserts/Gogh-On"
+        }
+      ]
+    },
+    {
+      "title": "The Figmental World of a Sketch Book",
+      "show": true,
+      "date": "05/2020",
+      "pageTag": "figmental-world",
+      "tag": ["art", "story"],
+      "projectType": "image",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/figmentalThumbnail.webp",
+      "thumbNailAlt": "The Figmental World of a Sketch Book Thumbnail",
+      "projectSource": "/assets/projectAssets/figmentalCover.jpg",
+      "softwareMaterials": "Paint Tool Sai, Photoshop, InDesign, Paper, Pencil",
+      "description": [
+        "The Figmental World of A Sketchbook is a graphic novel following the story of Sonia and her father who are whisked away into an imaginary world created from Sonia's Sketchbook! The two must traverse the lands and overcome challenges imposed by the residents of the sketchbook in order to find a way home. This project was created in collaboration with Stephanie Cen.",
+        "This project is a close one to my heart. Though on the surface the story is about an adventure, the underlying message touches upon another. The story of resistance from parental figures to support their childrens' dreams because they think it's a foolish path is a common one for the first generational American population. Oftentimes these stories can be very complex and hard to discuss with others. Some may even find these stories unfathomable. I believe it's important to share these stories. Not only to shed light, but also to show others who are going through a similar situation that they are not alone. Here's to all the dreamers.",
+        "I worked together with Stephanie Cen on the writing and story exploration for this project. All other aspects, including art, formatting, lettering and more were done by me. Throughout the creation of this project I gained insight from many people including my advisor De Angela Duff and peer Yangsin Lau Vasquez."
+      ],
+      "links": [
+        {
+          "linkName": "Read Here",
+          "linkAddress": "https://www.yumpu.com/en/document/read/65875869/the-figmental-world-of-a-sketchbook"
+        },
+        {
+          "linkName": "Project Process Documentation",
+          "linkAddress": "https://drive.google.com/file/d/1gLWrYI4IiCiRaO8sDWsL_qGRCg-qcICN/view"
+        }
+      ]
+    },
+    {
+      "title": "Metamorphosis",
+      "show": true,
+      "date": "12/2024",
+      "pageTag": "metamorphosis",
+      "tag": ["art", "story"],
+      "projectType": "scrollable",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/metamorphosisThumbnail.webp",
+      "thumbNailAlt": "Metamorphosis Thumbnail",
+      "softwareMaterials": "Paint Tool Sai, Paper, Pencil",
+      "projectSource": "/assets/projectAssets/metamorphosis.png",
+      "description": [
+        "Metamorphosis is a web comic adaptation of the song Metamorphosis by Infinity Song. It follows the story of a little girl who has a dream she wants to achieve but struggles through insecurities and doubt while trying to make it come true.",
+        "When I first heard this song, it felt like a heavy weight was lifted off my shoulders. In my own journey through art, I was going through a lot of struggles and tribulations. I failed myself, experienced imposter syndrome, and had many moments where I just wanted to give it all up. It gives me solace to know that I'm not the only one going through it.",
+        "Although the fears are still there, I hope that creating this little story puts me one step closer to recognizing my worth and realizing my dreams.",
+        "Read Metamorphosis by scrolling on the left!"
+      ],
+      "links": [
+        {
+          "linkName": "Listen to Metamorphsis by Infinity Song",
+          "linkAddress": "https://www.youtube.com/watch?v=zDI2FQ4b_rA"
+        }
+      ]
+    },
+    {
+      "title": "Alice's Lament",
+      "show": true,
+      "date": "05/2025",
+      "pageTag": "alices-lament",
+      "tag": ["art", "story"],
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/alicesLamentThumbnail.webp",
+      "thumbNailAlt": "Alice's Lament Thumbnail",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+
+    {
+      "title": "Road Rage",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["code"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/roadRageThumbnail.webp",
+      "thumbNailAlt": "Road Rage Thumbnail",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+
+    {
+      "title": "Flora! The Musical Showdown with B.B. Wolf",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["story"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/floraThumbnail.webp",
+      "thumbNailAlt": "Flora! The Musical Showdown with B.B. Wolf",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "Nurture",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art", "story"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/nurtureThumbNail.webp",
+      "thumbNailAlt": "Nurture Thumbnail",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "Weightlessness",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art", "code"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/weightlessnessThumbnail.webp",
+      "thumbNailAlt": "Weightlessness Thumbnail",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "Treat or Trick",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["story"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/treatOrTrickThumbnail.webp",
+      "thumbNailAlt": "Treat or Trick Thumbnail",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "Star Grid",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art", "code"],
+      "projectType": "test",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/starGridThumbnail.webp",
+      "thumbNailAlt": "Star Grid Thumbnail",
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    }
+  ]
+}

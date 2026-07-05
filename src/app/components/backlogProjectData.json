@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "title": "Motion Graphics Reel",
+      "show": true,
+      "date": "12/2025",
+      "pageTag": "test",
+      "tag": ["art"],
+      "projectType": "video",
+      "thumbNailImagePath": null,
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "BOLD",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art", "story"],
+      "projectType": "test",
+      "thumbNailImagePath": null,
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "Creative Programming Reel",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art", "code"],
+      "projectType": "test",
+      "thumbNailImagePath": null,
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    },
+    {
+      "title": "A Spartan's Journey",
+      "show": true,
+      "date": "12/2019",
+      "pageTag": "spartan-journey",
+      "tag": ["story"],
+      "projectType": "video",
+      "thumbNailImagePath": null,
+      "projectSource": "https://www.youtube.com/embed/qrEnokeVhcI?si=BD2hIwFHfsdUOKsJ",
+      "softwareMaterials": "Premiere Pro, Canon T6 & T6i Rebel, H4N Zoom Recorder",
+      "description": [
+        "A Spartan’s Journey follows Richard Khuu as he battles life’s obstacles and finds purpose through the world of Spartan Races.",
+        "Growing up, I always looked up to my cousin Richard. He was the kindest cousin and very knowledgable. Around 2016, Richard began to make posts on social media about his participation in Spartan Races. I didn't know much about the races then but seeing him accomplish the physical feats required in these races was insanely impressive and inspiring. I wanted to learn his story, hear why he did these races, and I wanted to share it for others to hear."
+      ]
+    },
+    {
+      "title": "Take a Break",
+      "show": true,
+      "date": "01/2026",
+      "pageTag": "test",
+      "tag": ["art"],
+      "projectType": "test",
+      "thumbNailImagePath": null,
+      "projectSource": "",
+      "softwareMaterials": "",
+      "description": ["xxxxxxxxxxxxxxxxxxxx"],
+      "links": [
+        {
+          "linkName": "TESTLINK",
+          "linkAddress": "https://elliely.me/"
+        },
+        {
+          "linkName": "TESTLINK2",
+          "linkAddress": "https://elliely.me/"
+        }
+      ]
+    }
+  ]
+}
