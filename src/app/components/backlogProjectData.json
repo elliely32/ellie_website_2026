@@ -100,6 +100,38 @@
           "linkAddress": "https://elliely.me/"
         }
       ]
+    },
+    {
+      "title": "Gogh On!",
+      "show": true,
+      "date": "02/2022",
+      "pageTag": "gogh-on",
+      "tag": ["code"],
+      "projectType": "gallery",
+      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/goghonthumbnail.webp",
+      "thumbNailAlt": "Gogh On! Thumbnail",
+      "mediaDisplayType": "gallery",
+      "projectSource": [
+        "/assets/projectAssets/goghOnMain.png",
+        "/assets/projectAssets/goghOnLobby.png",
+        "/assets/projectAssets/goghOnPostSession.png"
+      ],
+      "softwareMaterials": "Node.js, react, express, Socket.io, React-Konva, Bootstrap",
+      "description": [
+        "Gogh On! is a collaborative drawing space website that allows users to create custom rooms and use a common drawing space, equipped with an in house messaging system, an array of art tools and the ability to export your drawing post drawing session. This project was created in collaboration with Ataa Amponsah, Amanda Henneberry, Nhu Quynh le, and Ellie Ly.",
+        "Inspired by online drawing games like Skribbl.io, Drawful and Gartic phone, we wanted to create a collaborative drawing website where users could join and draw simultaneously on the same canvas. With this idea in mind, we needed to utilize frameworks for drawing and for real time communication between users. To accomplish this we utilized React Konva, for canvas and drawing tool integration with our react components, and Socket.IO, for utilization of web sockets. A big challenge for this project was figuring out how to use these two frameworks in tandem to allow for collaboration on a single canvas amongst users.",
+        "My contributions to this project focused mostly on the implementation of Socket.IO. I started by creating the initial client and server. Next, I focused on Socket.IO's room feature in order to integrate sessions. Additionally, I utilized Socket.IO's data to implement dynamic visual displays of users as they enter/leave a room. Collaborating with my group, we built an in-house messaging system for users to communicate during drawing sessions and finally focused on combining Socket.IO and React Konva. Aside from that, I drew many of the assets for the website such as our background and the Icon :) "
+      ],
+      "links": [
+        {
+          "linkName": "Video Summary",
+          "linkAddress": "https://www.youtube.com/watch?v=aSCxn9fvj98"
+        },
+        {
+          "linkName": "Github Repo",
+          "linkAddress": "https://github.com/2111-desserts/Gogh-On"
+        }
+      ]
     }
   ]
 }

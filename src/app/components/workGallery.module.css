@@ -37,6 +37,103 @@
   cursor: pointer;
 }
 
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.75;
+  z-index: 50;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 5vh;
+  height: 90vh;
+  width: 90vw;
+  z-index: 100;
+  border-radius: 15px;
+  border: solid white 5px;
+  background-color: #4a91f2;
+  overflow-y: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 1vw;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px black;
+}
+
+.projectTitle {
+  margin: 40px 20px;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 45px;
+}
+
+.yearTag {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.mediaContainer {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mediaPDF {
+  width: 70vw;
+  height: 70vh;
+}
+
+.mediaGallery {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.mediaVideo {
+  width: 60vw;
+  aspect-ratio: 1920/1080;
+}
+
+.mediaIframe {
+  z-index: 50;
+}
+
+.mediaIframeAlt {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 75;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 40px;
+  background-color: #222;
+}
+
+@media (max-width: 1000px) {
+  .mediaIframe {
+    display: none;
+  }
+  .mediaIframeAlt {
+    display: flex;
+    position: static;
+  }
+  .mediaPDF {
+    width: 90vw;
+  }
+}
+
 @media (max-width: 500px) {
   .filterContainer {
     flex-direction: column;
@@ -46,5 +143,14 @@
     height: auto;
     width: 80vw;
     background-color: #4a91f2;
+  }
+  .projectTitle {
+    font-size: 32px;
+  }
+  .yearTag {
+    font-size: 20px;
+  }
+  .mediaVideo {
+    width: 70vw;
   }
 }

@@ -8,43 +8,15 @@
       "tag": ["art", "story"],
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/benevolentHeartThumb.webp",
       "thumbNailAlt": "Bevevolent Heart Thumbnail",
+      "mediaDisplayType": "pdf",
+      "projectSource": "https://drive.google.com/file/d/1hYinIU27LqPR1vNOu2Y5ztFX49ToY6dd/preview",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
         { "linkName": "LinkTest1", "linkAddress": "https://elliely.me/" },
         { "linkName": "LinkTest2", "linkAddress": "https://elliely.me/" }
       ]
     },
-    {
-      "title": "Gogh On!",
-      "show": true,
-      "date": "02/2022",
-      "pageTag": "gogh-on",
-      "tag": ["code"],
-      "projectType": "gallery",
-      "thumbNailImagePath": "/portfolioAssets/projectThumbnails/goghonthumbnail.webp",
-      "thumbNailAlt": "Gogh On! Thumbnail",
-      "projectSource": [
-        "/assets/projectAssets/goghOnMain.png",
-        "/assets/projectAssets/goghOnLobby.png",
-        "/assets/projectAssets/goghOnPostSession.png"
-      ],
-      "softwareMaterials": "Node.js, react, express, Socket.io, React-Konva, Bootstrap",
-      "description": [
-        "Gogh On! is a collaborative drawing space website that allows users to create custom rooms and use a common drawing space, equipped with an in house messaging system, an array of art tools and the ability to export your drawing post drawing session. This project was created in collaboration with Ataa Amponsah, Amanda Henneberry, Nhu Quynh le, and Ellie Ly.",
-        "Inspired by online drawing games like Skribbl.io, Drawful and Gartic phone, we wanted to create a collaborative drawing website where users could join and draw simultaneously on the same canvas. With this idea in mind, we needed to utilize frameworks for drawing and for real time communication between users. To accomplish this we utilized React Konva, for canvas and drawing tool integration with our react components, and Socket.IO, for utilization of web sockets. A big challenge for this project was figuring out how to use these two frameworks in tandem to allow for collaboration on a single canvas amongst users.",
-        "My contributions to this project focused mostly on the implementation of Socket.IO. I started by creating the initial client and server. Next, I focused on Socket.IO's room feature in order to integrate sessions. Additionally, I utilized Socket.IO's data to implement dynamic visual displays of users as they enter/leave a room. Collaborating with my group, we built an in-house messaging system for users to communicate during drawing sessions and finally focused on combining Socket.IO and React Konva. Aside from that, I drew many of the assets for the website such as our background and the Icon :) "
-      ],
-      "links": [
-        {
-          "linkName": "Video Summary",
-          "linkAddress": "https://www.youtube.com/watch?v=aSCxn9fvj98"
-        },
-        {
-          "linkName": "Github Repo",
-          "linkAddress": "https://github.com/2111-desserts/Gogh-On"
-        }
-      ]
-    },
+
     {
       "title": "The Figmental World of a Sketch Book",
       "show": true,
@@ -54,7 +26,8 @@
       "projectType": "image",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/figmentalThumbnail.webp",
       "thumbNailAlt": "The Figmental World of a Sketch Book Thumbnail",
-      "projectSource": "/assets/projectAssets/figmentalCover.jpg",
+      "mediaDisplayType": "pdf",
+      "projectSource": "https://drive.google.com/file/d/1DJZ1-kGBtx0sC1O8yOWblY8Xi6z1A4o9/preview",
       "softwareMaterials": "Paint Tool Sai, Photoshop, InDesign, Paper, Pencil",
       "description": [
         "The Figmental World of A Sketchbook is a graphic novel following the story of Sonia and her father who are whisked away into an imaginary world created from Sonia's Sketchbook! The two must traverse the lands and overcome challenges imposed by the residents of the sketchbook in order to find a way home. This project was created in collaboration with Stephanie Cen.",
@@ -81,8 +54,8 @@
       "projectType": "scrollable",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/metamorphosisThumbnail.webp",
       "thumbNailAlt": "Metamorphosis Thumbnail",
-      "softwareMaterials": "Paint Tool Sai, Paper, Pencil",
-      "projectSource": "/assets/projectAssets/metamorphosis.png",
+      "mediaDisplayType": "pdf",
+      "projectSource": "https://drive.google.com/file/d/1EHjWyuY1SvU_J3KnVCeJgeF3ZOH6zSFc/preview",
       "description": [
         "Metamorphosis is a web comic adaptation of the song Metamorphosis by Infinity Song. It follows the story of a little girl who has a dream she wants to achieve but struggles through insecurities and doubt while trying to make it come true.",
         "When I first heard this song, it felt like a heavy weight was lifted off my shoulders. In my own journey through art, I was going through a lot of struggles and tribulations. I failed myself, experienced imposter syndrome, and had many moments where I just wanted to give it all up. It gives me solace to know that I'm not the only one going through it.",
@@ -104,6 +77,8 @@
       "tag": ["art", "story"],
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/alicesLamentThumbnail.webp",
       "thumbNailAlt": "Alice's Lament Thumbnail",
+      "mediaDisplayType": "pdf",
+      "projectSource": "https://drive.google.com/file/d/1xjVwt--CialYCRMvh5lj6Th7t0UFs3vv/preview",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
         {
@@ -126,7 +101,10 @@
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/roadRageThumbnail.webp",
       "thumbNailAlt": "Road Rage Thumbnail",
-      "projectSource": "",
+      "mediaDisplayType": "iframe",
+      "mediaHeight": "492px",
+      "mediaWidth": "800px",
+      "projectSource": "https://editor.p5js.org/Sketchie_Ellie/full/68jjL_Eix",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
@@ -144,13 +122,14 @@
     {
       "title": "Flora! The Musical Showdown with B.B. Wolf",
       "show": true,
-      "date": "01/2026",
+      "date": "07/2024",
       "pageTag": "test",
       "tag": ["story"],
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/floraThumbnail.webp",
       "thumbNailAlt": "Flora! The Musical Showdown with B.B. Wolf",
-      "projectSource": "",
+      "mediaDisplayType": "video",
+      "projectSource": "https://www.youtube.com/embed/YkbrsFOEgIY?si=oQZxztSVWoT1yjZE",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
@@ -173,7 +152,8 @@
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/nurtureThumbNail.webp",
       "thumbNailAlt": "Nurture Thumbnail",
-      "projectSource": "",
+      "mediaDisplayType": "pdf",
+      "projectSource": "https://drive.google.com/file/d/1Yvkb7SD60kfzEjRmEWOKO_i-S5dI3afj/preview",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
@@ -196,7 +176,10 @@
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/weightlessnessThumbnail.webp",
       "thumbNailAlt": "Weightlessness Thumbnail",
-      "projectSource": "",
+      "mediaDisplayType": "iframe",
+      "mediaHeight": "792px",
+      "mediaWidth": "600px",
+      "projectSource": "https://editor.p5js.org/Sketchie_Ellie/full/1w_AMq1hn",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
@@ -219,7 +202,8 @@
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/treatOrTrickThumbnail.webp",
       "thumbNailAlt": "Treat or Trick Thumbnail",
-      "projectSource": "",
+      "mediaDisplayType": "video",
+      "projectSource": "https://www.youtube.com/embed/q0uLrK6whR0?si=JmSQhPMaqbxS-pYA",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
@@ -238,11 +222,14 @@
       "show": true,
       "date": "01/2026",
       "pageTag": "test",
-      "tag": ["art", "code"],
+      "tag": ["code"],
       "projectType": "test",
       "thumbNailImagePath": "/portfolioAssets/projectThumbnails/starGridThumbnail.webp",
       "thumbNailAlt": "Star Grid Thumbnail",
-      "projectSource": "",
+      "mediaDisplayType": "iframe",
+      "mediaHeight": "862px",
+      "mediaWidth": "750px",
+      "projectSource": "https://editor.p5js.org/Sketchie_Ellie/full/wSQD_ze66",
       "softwareMaterials": "",
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [

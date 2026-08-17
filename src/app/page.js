@@ -21,6 +21,7 @@ export default function Home() {
       <WorkGallery />
       <AboutSection />
       <ContactSection />
+      <h4>© Copyright 2026 Ellie Ly</h4>
     </div>
   );
 }
