@@ -12,6 +12,9 @@ const roboto = Roboto({
 export const metadata = {
   title: 'Ellie "Sketchie" Ly',
   description: "Ellie's Portfolio Website",
+  // icons:{
+  //   icon:
+  // }
 };
 
 export default function RootLayout({ children }) {
