@@ -10,13 +10,8 @@
       "thumbNailAlt": "Bevevolent Heart Thumbnail",
       "mediaDisplayType": "pdf",
       "projectSource": "https://drive.google.com/file/d/1hYinIU27LqPR1vNOu2Y5ztFX49ToY6dd/preview",
-      "description": ["xxxxxxxxxxxxxxxxxxxx"],
-      "links": [
-        { "linkName": "LinkTest1", "linkAddress": "https://elliely.me/" },
-        { "linkName": "LinkTest2", "linkAddress": "https://elliely.me/" }
-      ]
+      "description": ["xxxxxxxxxxxxxxxxxxxx"]
     },
-
     {
       "title": "The Figmental World of a Sketch Book",
       "show": true,
@@ -33,16 +28,6 @@
         "The Figmental World of A Sketchbook is a graphic novel following the story of Sonia and her father who are whisked away into an imaginary world created from Sonia's Sketchbook! The two must traverse the lands and overcome challenges imposed by the residents of the sketchbook in order to find a way home. This project was created in collaboration with Stephanie Cen.",
         "This project is a close one to my heart. Though on the surface the story is about an adventure, the underlying message touches upon another. The story of resistance from parental figures to support their childrens' dreams because they think it's a foolish path is a common one for the first generational American population. Oftentimes these stories can be very complex and hard to discuss with others. Some may even find these stories unfathomable. I believe it's important to share these stories. Not only to shed light, but also to show others who are going through a similar situation that they are not alone. Here's to all the dreamers.",
         "I worked together with Stephanie Cen on the writing and story exploration for this project. All other aspects, including art, formatting, lettering and more were done by me. Throughout the creation of this project I gained insight from many people including my advisor De Angela Duff and peer Yangsin Lau Vasquez."
-      ],
-      "links": [
-        {
-          "linkName": "Read Here",
-          "linkAddress": "https://www.yumpu.com/en/document/read/65875869/the-figmental-world-of-a-sketchbook"
-        },
-        {
-          "linkName": "Project Process Documentation",
-          "linkAddress": "https://drive.google.com/file/d/1gLWrYI4IiCiRaO8sDWsL_qGRCg-qcICN/view"
-        }
       ]
     },
     {
@@ -79,19 +64,8 @@
       "thumbNailAlt": "Alice's Lament Thumbnail",
       "mediaDisplayType": "pdf",
       "projectSource": "https://drive.google.com/file/d/1xjVwt--CialYCRMvh5lj6Th7t0UFs3vv/preview",
-      "description": ["xxxxxxxxxxxxxxxxxxxx"],
-      "links": [
-        {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
-        },
-        {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
-        }
-      ]
+      "description": ["xxxxxxxxxxxxxxxxxxxx"]
     },
-
     {
       "title": "Road Rage",
       "show": true,
@@ -109,12 +83,12 @@
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
         {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Project on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/full/68jjL_Eix"
         },
         {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Code on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/sketches/68jjL_Eix"
         }
       ]
     },
@@ -131,17 +105,7 @@
       "mediaDisplayType": "video",
       "projectSource": "https://www.youtube.com/embed/YkbrsFOEgIY?si=oQZxztSVWoT1yjZE",
       "softwareMaterials": "",
-      "description": ["xxxxxxxxxxxxxxxxxxxx"],
-      "links": [
-        {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
-        },
-        {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
-        }
-      ]
+      "description": ["xxxxxxxxxxxxxxxxxxxx"]
     },
     {
       "title": "Nurture",
@@ -155,17 +119,7 @@
       "mediaDisplayType": "pdf",
       "projectSource": "https://drive.google.com/file/d/1Yvkb7SD60kfzEjRmEWOKO_i-S5dI3afj/preview",
       "softwareMaterials": "",
-      "description": ["xxxxxxxxxxxxxxxxxxxx"],
-      "links": [
-        {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
-        },
-        {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
-        }
-      ]
+      "description": ["xxxxxxxxxxxxxxxxxxxx"]
     },
     {
       "title": "Weightlessness",
@@ -184,12 +138,12 @@
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
         {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Project on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/full/1w_AMq1hn"
         },
         {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Code on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/sketches/1w_AMq1hn"
         }
       ]
     },
@@ -205,17 +159,7 @@
       "mediaDisplayType": "video",
       "projectSource": "https://www.youtube.com/embed/q0uLrK6whR0?si=JmSQhPMaqbxS-pYA",
       "softwareMaterials": "",
-      "description": ["xxxxxxxxxxxxxxxxxxxx"],
-      "links": [
-        {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
-        },
-        {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
-        }
-      ]
+      "description": ["xxxxxxxxxxxxxxxxxxxx"]
     },
     {
       "title": "Star Grid",
@@ -234,12 +178,12 @@
       "description": ["xxxxxxxxxxxxxxxxxxxx"],
       "links": [
         {
-          "linkName": "TESTLINK",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Project on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/full/wSQD_ze66"
         },
         {
-          "linkName": "TESTLINK2",
-          "linkAddress": "https://elliely.me/"
+          "linkName": "View Code on p5js",
+          "linkAddress": "https://editor.p5js.org/Sketchie_Ellie/sketches/wSQD_ze66"
         }
       ]
     }

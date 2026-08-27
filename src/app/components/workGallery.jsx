@@ -128,7 +128,7 @@ const WorkGallery = () => {
                 document.body.style.overflow = "unset";
               }}
             >
-              🗙
+              ✖
             </p>
             <h1 className={styles.projectTitle}>
               {currentModalDisplayedProject.title}
@@ -136,54 +136,71 @@ const WorkGallery = () => {
                 {" "}
                 ({currentModalDisplayedProject.date.split("/")[1]})
               </span>
-              <div className={styles.mediaContainer}>
-                {currentModalDisplayedProject.mediaDisplayType == VIDEO && (
-                  <iframe
-                    className={styles.mediaVideo}
-                    src={currentModalDisplayedProject.projectSource}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  ></iframe>
-                )}
-                {currentModalDisplayedProject.mediaDisplayType == IFRAME && (
-                  <div
-                    style={{
-                      position: "relative",
-                      width: currentModalDisplayedProject.mediaWidth,
-                      height: currentModalDisplayedProject.mediaHeight,
-                    }}
-                  >
-                    <iframe
-                      width={currentModalDisplayedProject.mediaWidth}
-                      height={currentModalDisplayedProject.mediaHeight}
-                      frameBorder="0"
-                      className={styles.mediaIframe}
-                      src={currentModalDisplayedProject.projectSource}
-                    ></iframe>
-                    <div className={styles.mediaIframeAlt}>
-                      Sorry! This project is not viewable at this screensize.
-                      Please use a desktop or visit the link below.
-                    </div>
-                  </div>
-                )}
-                {currentModalDisplayedProject.mediaDisplayType == GALLERY && (
-                  <div className={styles.mediaGallery}>
-                    {/* projectSource type will be an array, if it's one item than it's a single image, if it's more than one, format as a slide show with buttons to navigate */}
-                  </div>
-                )}
-                {currentModalDisplayedProject.mediaDisplayType == PDF && (
-                  <iframe
-                    frameBorder="0"
-                    className={styles.mediaPDF}
-                    src={currentModalDisplayedProject.projectSource}
-                    type="application/pdf"
-                  ></iframe>
-                )}
-              </div>
             </h1>
+            <div className={styles.mediaContainer}>
+              {currentModalDisplayedProject.mediaDisplayType == VIDEO && (
+                <iframe
+                  className={styles.mediaVideo}
+                  src={currentModalDisplayedProject.projectSource}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              )}
+              {currentModalDisplayedProject.mediaDisplayType == IFRAME && (
+                <div
+                  className={styles.iframeContainer}
+                  style={{
+                    position: "relative",
+                    width: currentModalDisplayedProject.mediaWidth,
+                    height: currentModalDisplayedProject.mediaHeight,
+                  }}
+                >
+                  <iframe
+                    width={currentModalDisplayedProject.mediaWidth}
+                    height={currentModalDisplayedProject.mediaHeight}
+                    frameBorder="0"
+                    className={styles.mediaIframe}
+                    src={currentModalDisplayedProject.projectSource}
+                  ></iframe>
+                  <div className={styles.mediaIframeAlt}>
+                    Sorry! This project is not viewable at this screensize.
+                    Please use a desktop or visit the link below.
+                  </div>
+                </div>
+              )}
+              {currentModalDisplayedProject.mediaDisplayType == GALLERY && (
+                <div className={styles.mediaGallery}>
+                  {/* projectSource type will be an array, if it's one item than it's a single image, if it's more than one, format as a slide show with buttons to navigate */}
+                </div>
+              )}
+              {currentModalDisplayedProject.mediaDisplayType == PDF && (
+                <iframe
+                  frameBorder="0"
+                  className={styles.mediaPDF}
+                  src={currentModalDisplayedProject.projectSource}
+                  type="application/pdf"
+                ></iframe>
+              )}
+            </div>
+            {currentModalDisplayedProject.links != null && (
+              <div className={styles.linkContainer}>
+                {currentModalDisplayedProject.links.map((link, idx) => {
+                  return (
+                    <a
+                      className={styles.linkButtons}
+                      key={"link" + idx}
+                      href={link.linkAddress}
+                      target="_blank"
+                    >
+                      {link.linkName}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </>
       )}
