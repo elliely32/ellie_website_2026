@@ -58,11 +58,12 @@
   border: solid white 5px;
   background-color: #4a91f2;
   overflow-y: auto;
+  padding: 20px;
 }
 
 .closeButton {
   position: absolute;
-  top: 0;
+  top: 5;
   right: 1vw;
   font-size: 30px;
   cursor: pointer;
@@ -70,7 +71,7 @@
 }
 
 .projectTitle {
-  margin: 40px 20px;
+  margin: 30px 20px;
   text-transform: uppercase;
   position: relative;
   font-size: 45px;
@@ -82,7 +83,6 @@
 }
 
 .mediaContainer {
-  /* border: 2px solid white; */
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -106,6 +106,7 @@
 
 .mediaIframe {
   z-index: 50;
+  padding: 20px;
 }
 
 .mediaIframeAlt {
@@ -121,6 +122,18 @@
   background-color: #222;
 }
 
+.description {
+  background-color: rgba(0, 128, 0, 0);
+  font-size: 20px;
+  padding-bottom: 20px;
+  width: 70vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+
 .linkContainer {
   display: flex;
   flex-direction: column;
@@ -129,7 +142,7 @@
 }
 
 .linkButtons {
-  width: 60vw;
+  width: 70vw;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid white;
@@ -174,5 +187,8 @@
   }
   .mediaVideo {
     width: 70vw;
+  }
+  .description {
+    font-size: 15px;
   }
 }

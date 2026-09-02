@@ -185,6 +185,15 @@ const WorkGallery = () => {
                 ></iframe>
               )}
             </div>
+            {currentModalDisplayedProject.description != null && (
+              <div className={styles.description}>
+                {currentModalDisplayedProject.description.map(
+                  (description, idx) => {
+                    return <p key={"description" + idx}>{description}</p>;
+                  },
+                )}
+              </div>
+            )}
             {currentModalDisplayedProject.links != null && (
               <div className={styles.linkContainer}>
                 {currentModalDisplayedProject.links.map((link, idx) => {
