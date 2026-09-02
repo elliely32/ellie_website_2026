@@ -12,9 +12,14 @@ const roboto = Roboto({
 export const metadata = {
   title: 'Ellie "Sketchie" Ly',
   description: "Ellie's Portfolio Website",
-  // icons:{
-  //   icon:
-  // }
+  icons: {
+    icon: [
+      {
+        url: "/portfolioAssets/icons/icon.png",
+        href: "/portfolioAssets/icons/icon.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
