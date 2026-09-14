@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./homeCarousel.module.css";
+import styles from "./HomeCarousel.module.css";
 
 const HomeCarousel = () => {
   return (

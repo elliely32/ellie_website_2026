@@ -1,0 +1,31 @@
+{
+  "DevLogs": [
+    {
+      "date": "x/x/2026",
+      "postNumber": 1,
+      "title": "So What is this Game Exactly?",
+      "post": "yyyyyyyyyyyyyyyy",
+      "showPost": false
+    },
+    {
+      "date": "9/14/2026",
+      "postNumber": 0,
+      "title": "Our Story Begins",
+      "post": [
+        "So, here we are at the the very beginning of making a for real video game.",
+        "How exciting! How terrifying! But most of all, how the %@$& am I going to do this???",
+        "Hi, I'm Ellie. I'm an artist, coder, and storyteller based in NYC, and up until recently, those three titles were mutually exclusive. I drew as a hobby, coded for a living, and made up stories in my head from time to time. I didn't combine them for many reasons, but one day I decided to say 'screw all of that' and look for a way to mesh them together. So I went to grad school, and now I'm on my way to making my thesis project, which is a video game, something that perfectly encapsulates art, code, and story.",
+        "Okay, so I've got the skills (kinda) to make a video game, but how does one actually make a game? Usually, people start by coding a prototype to test different game-play mechanics and see what's fun to play.",
+        "BUT NOT HERE THOUGH. We're starting with story because I'm studying in a Visual Narrative graduate program where story comes first!",
+        "Jokes aside, I am going about creating this game in an unconventional way. But I think there are a lot of benefits to approaching game development with a story-first mindset. If you know the journey the characters will go through, the lessons the players will take away, the world the story takes place in, that's already so much of the game design done without coding a single line! And when its time to make a prototype, there will be natural boundaries to help narrow the scope of mechanics. For example, if your game is about running a store, you could probably skip over any combat mechanics. The same benefits apply to the art side of things too. Knowing your story will inform all design decisions you make moving forward.",
+        "Cool, so this is how we're going to be making the game, but what exactly is the story?",
+        "Down in the Dumps is a story about an angsty teenager named Vy, who's, well, down in the dumps. Her family is poor, and so are her grades at school. Her social life is nonexistent, unless you count bullies, and to top it all off, she lives right next to the local landfill. All of this, plus her own set of anxieties, it's no wonder there's not much Vy looks forward to.",
+        "So Vy wants out, to move far away from this city that's been nothing but one bad thing after another, and start anew. But to do that, she needs money, and no one's gonna hire a runt like her. So how else can she make money? Well, you don't need any credentials to pick through trash... Vy finds a way to break into the local landfill and searches through the rubbish for anything of value. But it's not that easy. Vy's not finding much, and of the things she finds, they're too damaged or marred to sell. Maybe this was a dumb idea, maybe Vy's goals are just too big for a poor sap like her.",
+        "And then everything changes when Vy accidentally resurrects a deity? By unknowingly 'planting' a strange seed in trash, Vy resurrects the World Tree Deity in an unprecedented form. Needing Vy's help to fulfill its mission of cleansing the Earth, the deity offers Vy their powers in exchange for her assistance; Powers that Vy sees a potential for making money with.",
+        "And that's the quick premise of the story ahead of us! We can't give everything away right at the start, now can we? A lot of the story has been planned out, with finer details soon to come. But from this basis, I'm sure anyone can begin to imagine what form this game could look like. That's exactly what will be revealed as we continue these dev logs and continue making this game into a reality. ",
+        "I thank you for reading if you've made it this far. It means a lot! I'm so excited to embark on this development journey. Here's to the future!"
+      ],
+      "showPost": true
+    }
+  ]
+}

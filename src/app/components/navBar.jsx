@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import styles from "./navBar.module.css";
+import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   const [isPhoneNavOpen, setIsPhoneNavOpen] = useState(false);
@@ -15,6 +15,11 @@ const NavBar = () => {
 
   const navLinkClick = (destination) => {
     if (isPhoneNavOpen) setIsPhoneNavOpen(false);
+
+    if (destination === "DITD") {
+      router.push("/DownInTheDumps");
+      return;
+    }
 
     if (currPath !== "/") {
       router.push("/");
@@ -40,6 +45,7 @@ const NavBar = () => {
             <Image
               src="/portfolioAssets/logo.svg"
               alt="Ellie's Portfolio logo"
+              loading="eager"
               width={75}
               height={50}
             />
@@ -97,6 +103,28 @@ const NavBar = () => {
             >
               CONTACT
             </div>
+            {isPhoneNavOpen ? (
+              <div
+                onClick={() => {
+                  navLinkClick("DITD");
+                }}
+                className={styles.phoneNavLink}
+              >
+                DOWN IN THE DUMPS
+              </div>
+            ) : (
+              <Image
+                onClick={() => {
+                  navLinkClick("DITD");
+                }}
+                loading="eager"
+                className={styles.navLink}
+                src="/portfolioAssets/DITDicon.svg"
+                alt="Ellie's Portfolio logo"
+                width={50}
+                height={50}
+              />
+            )}
           </div>
         </div>
       </div>

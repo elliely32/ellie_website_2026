@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import styles from "./workGallery.module.css";
-import FilterButton from "./filterButton";
+import styles from "./WorkGallery.module.css";
+import FilterButton from "./FilterButton";
 import * as projectData from "./projectData.json";
 
 const GALLERY = "gallery";

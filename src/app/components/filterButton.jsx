@@ -1,7 +1,7 @@
 "use client";
 
 import { BookOpenText, Brush, Laptop } from "lucide-react";
-import styles from "./filterButton.module.css";
+import styles from "./FilterButton.module.css";
 
 const FilterButton = ({ buttonType, onClick, isSelected }) => {
   return (

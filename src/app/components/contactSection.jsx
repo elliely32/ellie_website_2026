@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import styles from "./contactSection.module.css";
+import styles from "./ContactSection.module.css";
 
 const ContactSection = () => {
   const sendEmail = () => {

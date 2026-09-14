@@ -1,0 +1,30 @@
+.DropdownContainer {
+  width: 100%;
+  height: auto;
+  white-space: pre;
+}
+
+.dropdownButton {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdownContent {
+  display: none;
+  color: black;
+  padding: 15px;
+  background-color: #bbb;
+}
+
+.date,
+.postElems {
+  padding-bottom: 15px;
+  white-space: wrap;
+}
