@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import * as devLogData from "./devLogs.json";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useEffect } from "react";
-import DropdownComponent from "../components/DropdownComponent";
+import DropdownComponent from "../components/DropdownComponent.jsx";
 
 const DITD = () => {
   //   useEffect(() => {

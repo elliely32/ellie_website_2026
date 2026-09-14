@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import styles from "./WorkGallery.module.css";
-import FilterButton from "./FilterButton";
+import FilterButton from "./FilterButton.jsx";
 import * as projectData from "./projectData.json";
 
 const GALLERY = "gallery";

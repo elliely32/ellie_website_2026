@@ -1,10 +1,10 @@
 "use client";
 import { useEffect } from "react";
 import styles from "./page.module.css";
-import HomeCarousel from "./components/HomeCarousel";
-import WorkGallery from "./components/WorkGallery";
-import AboutSection from "./components/AboutSection";
-import ContactSection from "./components/ContactSection";
+import HomeCarousel from "./components/HomeCarousel.jsx";
+import WorkGallery from "./components/WorkGallery.jsx";
+import AboutSection from "./components/AboutSection.jsx";
+import ContactSection from "./components/ContactSection.jsx";
 
 export default function Home() {
   useEffect(() => {
